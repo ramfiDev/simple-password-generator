@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Document</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <a id="userLink" href="https://github.com/ramfiDev" target="_blank">
+        <img src="github.svg" alt="ícone github" />
+        <span id="userLogin">ramfiDev</span>
+      </a>
+
+      <h1>Gerador de senhas 📌</h1>
+      <p>Apenas um simples gerador de senhas feito em javascript.</p>
+      <h3>Defina o tamanho da senha no campo abaixo 👇</h3>
+
+      <input id="inputLength" type="number" placeholder="6 ~ 40" />
+      <button onclick="getPass()">Gerar senha</button>
+
+      <p id="resultado"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
